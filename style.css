@@ -1,0 +1,104 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body,html{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+.facebook{
+    width: 70%;
+/* margin-right: 20%; */
+color: blue;
+font-size: 20px;
+text-align: center;
+}
+.form{
+    
+    /* border: 2px solid rgb(235, 9, 178); */
+    overflow: hidden;
+    width: 30%;
+}
+.formcontainer{
+    /* width: 100%; */
+    height:min-content;
+/* border: 1px solid red; */
+box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+margin: 5px;
+}
+.gray{
+
+    color: gray;
+}
+.black{
+    color: black;
+}
+.signup{
+/* width: 100%; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.email{
+    /* width: 100%; */
+    margin: 0% auto;
+    padding: 10px 5px;
+}
+.email input{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.email :focus{
+outline:  1px solid red;
+border: none;
+}
+.password{
+margin: 0% auto;
+padding: 10px 5px;
+}
+.password input{
+width: 100%;
+font-size: 20px;
+border-radius: 5px;
+border: 1px solid gray;
+padding: 5px 10px;
+}
+.password :focus{
+outline: 1px solid red;
+border: none;
+}
+.log a{
+display: flex;
+justify-content: center;
+color: gray;
+}
+.frogetten a{
+display: flex;
+justify-content: center;
+margin : 0% auto;
+padding: 5px 10px;
+}
+
+.create a{
+display: flex;
+justify-content: center;
+font-size: 20px;
+margin: 10px 10px;
+padding: 10px 5px; 
+color: gray;
+}
+
+.page{
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
